@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/A. Mathematics/A. Mathematics.iml" filepath="$PROJECT_DIR$/A. Mathematics/A. Mathematics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Leetcode/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/B. Bits Manipulation/B. Bits Manipulation.iml" filepath="$PROJECT_DIR$/B. Bits Manipulation/B. Bits Manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/C. Recursion/C. Recursion.iml" filepath="$PROJECT_DIR$/C. Recursion/C. Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D. Array/D. Array.iml" filepath="$PROJECT_DIR$/D. Array/D. Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Data Structures And Algorithms.iml" filepath="$PROJECT_DIR$/.idea/Data Structures And Algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/E. Searching/E. Searching.iml" filepath="$PROJECT_DIR$/E. Searching/E. Searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Arrays/Easy/Easy.iml" filepath="$PROJECT_DIR$/Leetcode/Arrays/Easy/Easy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/F. Sorting/F. Sorting.iml" filepath="$PROJECT_DIR$/F. Sorting/F. Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/G. Matrix/G. Matrix.iml" filepath="$PROJECT_DIR$/G. Matrix/G. Matrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H. Hashing/H. Hashing.iml" filepath="$PROJECT_DIR$/H. Hashing/H. Hashing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/I. String/I. String.iml" filepath="$PROJECT_DIR$/I. String/I. String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/J. Linked List/J. Linked List.iml" filepath="$PROJECT_DIR$/J. Linked List/J. Linked List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/K. Stack/K. Stack.iml" filepath="$PROJECT_DIR$/K. Stack/K. Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L. Queue/L. Queue.iml" filepath="$PROJECT_DIR$/L. Queue/L. Queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/M. Deque/M. Deque.iml" filepath="$PROJECT_DIR$/M. Deque/M. Deque.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Mathematics/Mathematics.iml" filepath="$PROJECT_DIR$/Leetcode/Mathematics/Mathematics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/N. Tree/N. Tree.iml" filepath="$PROJECT_DIR$/N. Tree/N. Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O. Binary Search Tree/O. Binary Search Tree.iml" filepath="$PROJECT_DIR$/O. Binary Search Tree/O. Binary Search Tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P. Heaps/P. Heaps.iml" filepath="$PROJECT_DIR$/P. Heaps/P. Heaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Q. Graphs/Q. Graphs.iml" filepath="$PROJECT_DIR$/Q. Graphs/Q. Graphs.iml" />
+    </modules>
+  </component>
+</project>
