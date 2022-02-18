@@ -48,6 +48,13 @@ public class ReverseALinkedList {
         return recHead;
     }
 
+    public static Node22 reverseLLRecEff(Node22 head, Node22 prev) {
+        if (head==null) return prev;
+        Node22 next = head.next;
+        head.next = prev;
+        return reverseLLRecEff(next, head);
+    }
+
     public static void print(Node22 head) {
         Node22 curr = head;
         while (curr!=null) {
