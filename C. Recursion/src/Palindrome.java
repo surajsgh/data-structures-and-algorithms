@@ -3,6 +3,8 @@ public class Palindrome {
         System.out.println(isPalindrome("abc", 0, 2));
     }
 
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(n)
     public static boolean isPalindrome(String inputString, int start, int end) {
         if (start>=end) {
             return true;
