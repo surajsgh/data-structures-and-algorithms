@@ -18,6 +18,10 @@ public class FloorInASortedArray {
                 return mid;
             }
 
+            if (mid>=0 && arr[mid-1]<=x && x<arr[mid]) {
+                return mid-1;
+            }
+
             else if (x < arr[mid]) {
                 high = mid - 1;
             }
