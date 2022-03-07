@@ -10,7 +10,8 @@ public class GeneratePermutationsOfString {
         return true;
     }
 
-    //  Naive Solution
+    //  BEST Solution
+    //  Time Complexity : O(n!)
     private static void permutation(char[] characters, int low, int high) {
         if (low==high) {
             System.out.println(String.valueOf(characters));
