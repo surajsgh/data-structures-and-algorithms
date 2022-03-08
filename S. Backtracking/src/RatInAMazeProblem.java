@@ -9,6 +9,8 @@ public class RatInAMazeProblem {
         solveMaze(maze);
     }
 
+    //  Time Complexity : O(2^(m*n))
+    //  Auxiliary Space : O(m*n)
     private static boolean solveMaze(int[][] maze) {
         int[][] solution = new int[SIZE][SIZE];
 
