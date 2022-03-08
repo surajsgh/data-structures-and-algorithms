@@ -8,6 +8,8 @@ public class NQueenProblem {
         solve(board);
     }
 
+    //  Time Complexity : O(n!)
+    //  Auxiliary Space : O(n*n)
     private static boolean solve(int[][] board) {
         if (!solveRec(board,0)) {
             System.out.println("Solution not possible...");
