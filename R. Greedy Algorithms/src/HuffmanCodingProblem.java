@@ -25,6 +25,7 @@ public class HuffmanCodingProblem {
         printHuffmanCodes(ch, num);
     }
 
+    //  Time Complexity : O(nlogn)
     private static void printHuffmanCodes(char[] ch, int[] num) {
         int n = ch.length;
         PriorityQueue<HuffmanNode> queue = new PriorityQueue<HuffmanNode>((n1, n2) -> n1.num-n2.num);
