@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class CoinChangeProblem {
     //  Greedy Algorithm
     //  Not recommended though
-    //  Time Complexity : O(n)
+    //  Time Complexity : O(nlogn)
     private static int findOptimal(int[] arr, int n, int amount) {
         int res = 0;
         int count = 0;
