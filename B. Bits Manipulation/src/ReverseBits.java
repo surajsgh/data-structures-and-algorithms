@@ -4,7 +4,7 @@ public class ReverseBits {
     }
 
     //  This method is only applicable for decimal numbers, not for binary numbers.
-    //  Time Complexity : O(n)
+    //  Time Complexity : O(log(n))
     //  Auxiliary Space : O(1)
     public static int reverseBitsDecimal(int n) {
         int rev = 0;
