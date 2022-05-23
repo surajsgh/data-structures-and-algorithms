@@ -3,6 +3,7 @@ public class MyPow {
         System.out.println(myPow(4, 3));
     }
 
+    //  Time Complexity : O(log(n))
     public static double myPow(double x, int n) {
         if (n==0) {
             return 1;
