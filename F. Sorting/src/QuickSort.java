@@ -12,7 +12,7 @@ public class QuickSort {
 //    Best Time Complexity : O(nlog(n))
 //    Average Time Complexity : O(nlog(n))
 //    Worst Time Complexity : O(n*n) 
-//    Auxiliary Space : O(logn)
+//    Auxiliary Space : O(n)
     public static void quickSort(int arr[], int low, int high) {
         if (low < high) {
             int p = quickPartition(arr, low, high);
