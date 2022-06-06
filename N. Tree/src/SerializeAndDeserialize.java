@@ -36,8 +36,8 @@ public class SerializeAndDeserialize {
 
     //  Time Complexity : O(n)
     //  Auxiliary Space : O(h)
+    static int index = 0;
     public static Node20 deSerialize(ArrayList<Integer> arrayList) {
-        int index = 0;
         int value = arrayList.get(index++);
         if (value == -1) return null;
         Node20 root = new Node20(value);
