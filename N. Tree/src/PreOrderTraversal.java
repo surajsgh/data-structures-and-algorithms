@@ -31,7 +31,6 @@ public class PreOrderTraversal {
             return;
         }
         Stack<Node2> stack = new Stack<Node2>();
-        stack.add(root);
         Node2 curr = root;
         while (curr!=null || !stack.isEmpty()) {
             while (curr!=null) {
