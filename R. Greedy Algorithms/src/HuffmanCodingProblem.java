@@ -20,8 +20,8 @@ class HuffmanNode {
 
 public class HuffmanCodingProblem {
     public static void main(String[] args) {
-        int[] num = { 'a', 'b', 'c', 'd', 'e', 'f' };
-        char[] ch = { 5, 9, 12, 13, 16, 45 };
+        char[] ch = { 'a', 'b', 'c', 'd', 'e', 'f' };
+        int[] num = { 5, 9, 12, 13, 16, 45 };
         printHuffmanCodes(ch, num);
     }
 
