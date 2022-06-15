@@ -1,9 +1,8 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class ShortestWeightedPath {
+public class ShortestUnweightedPath {
 
     public static void main(String[] args) {
         int v = 4;
