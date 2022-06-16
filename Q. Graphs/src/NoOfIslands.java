@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
+//  THIS PROBLEM IS NOTHING BUT AN EXTENSION TO BFS FOR DISCONNECTED GRAPH PROBLEM.
 public class NoOfIslands {
     public static void bfs(ArrayList<ArrayList<Integer>> list, int s, boolean[] visited) {
         Queue<Integer> queue = new LinkedList<Integer>();
@@ -11,7 +12,7 @@ public class NoOfIslands {
             int item = queue.poll();
             System.out.print(item + " ");
             for (int num : list.get(item)) {
-                if (visited[num]==false) {
+                if (!visited[num]) {
                     visited[num] = true;
                     queue.add(num);
                 }
@@ -26,7 +27,7 @@ public class NoOfIslands {
         int count = 0;
         boolean[] visited = new boolean[v+1];
         for (int i=0; i<v; i++) {
-            if (visited[i]==false) {
+            if (!visited[i]) {
                 bfs(list, i, visited);
                 count++;
             }
