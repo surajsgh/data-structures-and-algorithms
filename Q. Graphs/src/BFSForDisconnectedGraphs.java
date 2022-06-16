@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
+//  IN THIS SCENARIO, WE'RE NOT GIVEN ANY SOURCE VERTEX. THE GRAPH IS UNDIRECTED BUT IT COULD ALSO BE DISCONNECTED
 public class BFSForDisconnectedGraphs {
     public static void bfs(ArrayList<ArrayList<Integer>> list, int s, boolean[] visited) {
         Queue<Integer> queue = new LinkedList<Integer>();
@@ -11,7 +12,7 @@ public class BFSForDisconnectedGraphs {
             int item = queue.poll();
             System.out.print(item + " ");
             for (int num : list.get(item)) {
-                if (visited[num]==false) {
+                if (!visited[num]) {
                     visited[num] = true;
                     queue.add(num);
                 }
@@ -25,7 +26,7 @@ public class BFSForDisconnectedGraphs {
     public static void bfsDis(ArrayList<ArrayList<Integer>> list, int v) {
         boolean[] visited = new boolean[v+1];
         for (int i=0; i<v; i++) {
-            if (visited[i]==false) {
+            if (!visited[i]) {
                 bfs(list, i, visited);
             }
         }
