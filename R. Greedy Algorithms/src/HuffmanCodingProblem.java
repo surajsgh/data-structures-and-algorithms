@@ -2,6 +2,11 @@
 //  1. Build a binary tree
 //  2. Traverse the binary tree
 
+//  NOTE:
+//  1. ASSIGN UNIQUE CHARACTERS TO EVERY CODE
+//  2. FOLLOW GREEDY IDEA i.e. THE MOST FREQUENT CHARACTER HAS THE SMALLEST CODE
+//  3. NO CODE SHOULD BE PREFIX OF ANY OTHER CODE
+
 import java.util.PriorityQueue;
 
 class HuffmanNode {
