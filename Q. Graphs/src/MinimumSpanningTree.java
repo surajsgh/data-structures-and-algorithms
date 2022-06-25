@@ -16,7 +16,7 @@ public class MinimumSpanningTree {
             int u = -1;
 
             for (int i=0; i<V; i++) {
-                if (!mSet[i] && (u==-1 || key[u]<key[i])) {
+                if (!mSet[i] && (u==-1 || key[u]>key[i])) {
                     u = i;
                 }
             }
