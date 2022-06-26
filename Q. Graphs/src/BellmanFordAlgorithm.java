@@ -48,7 +48,7 @@ public class BellmanFordAlgorithm {
     //  Auxiliary Space : O(V)
     public static void bellmanFordAlgo(ArrayList<Node> list, int v, int src) {
         int[] distance = new int[v];
-        Arrays.fill(distance, Integer.MAX_VALUE);
+        Arrays.fill(distance, 10000);
         distance[src] = 0;
 
         for (int i=1; i<=v-1; i++) {
