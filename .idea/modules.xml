@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/Q. Graphs/Q. Graphs.iml" filepath="$PROJECT_DIR$/Q. Graphs/Q. Graphs.iml" />
       <module fileurl="file://$PROJECT_DIR$/R. Greedy Algorithms/R. Greedy Algorithms.iml" filepath="$PROJECT_DIR$/R. Greedy Algorithms/R. Greedy Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/S. Backtracking/S. Backtracking.iml" filepath="$PROJECT_DIR$/S. Backtracking/S. Backtracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/T. Dynamic Programming/T. Dynamic Programming.iml" filepath="$PROJECT_DIR$/T. Dynamic Programming/T. Dynamic Programming.iml" />
     </modules>
   </component>
 </project>
