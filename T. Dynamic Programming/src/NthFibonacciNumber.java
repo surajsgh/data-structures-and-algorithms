@@ -8,6 +8,19 @@ public class NthFibonacciNumber {
         Arrays.fill(memo, -1);
         System.out.println(findNthFibonacciNumberNaive(num));
         System.out.println(findNthFibonacciEff(num));
+        System.out.println(findNthFibonacciEff2(num));
+    }
+
+    //  Time Complexity : O(n)
+    //  Auxiliary Space : O(n)
+    public static int findNthFibonacciEff2(int n) {
+        int memo[] = new int[n+1];
+        memo[0] = 0;
+        memo[1] = 1;
+        for (int i=2; i<=n; i++) {
+            memo[i] = memo[i-1] + memo[i-2];
+        }
+        return memo[n];
     }
 
     //  Memoization Technique
