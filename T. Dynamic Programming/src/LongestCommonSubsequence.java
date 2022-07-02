@@ -12,8 +12,42 @@ public class LongestCommonSubsequence {
         }
         System.out.println(findLongestCommonSubsequence("AXYZ", "BAZ", 4, 3));
         System.out.println(findLongestCommonSubsequenceEff(first, second, first.length(), second.length()));
+        System.out.println(findLongestCommonSubsequenceEff2(first, second, first.length(), second.length()));
     }
 
+    //  Time Complexity : O(mn)
+    //  Auxiliary Space : O(mn)
+    public static int findLongestCommonSubsequenceEff2(String first, String second, int m, int n) {
+        int[][] matrix = new int[m+1][n+1];
+        for (int i=0; i<=m; i++) {
+            for (int j=0; j<=n; j++) {
+                matrix[i][j] = -1;
+            }
+        }
+
+        for (int i=0; i<=m; i++) {
+            matrix[i][0] = 0;
+        }
+
+        for (int i=0; i<=n; i++) {
+            matrix[0][i] = 0;
+        }
+
+        for (int i=1; i<=m; i++) {
+            for (int j=1; j<=n; j++) {
+                if (first.charAt(i-1)==second.charAt(j-1)) {
+                    matrix[i][j] = 1 + matrix[i-1][j-1];
+                }
+                else {
+                    matrix[i][j] = matrix[i-1][j] + matrix[i][j-1];
+                }
+            }
+        }
+
+        return matrix[m][n];
+    }
+
+    //  MEMOIZATION
     //  Time Complexity : O(mn)
     //  Auxiliary Space : O(mn)
     public static int findLongestCommonSubsequenceEff(String first, String second, int m, int n) {
