@@ -1,8 +1,3 @@
-//  https://www.geeksforgeeks.org/minimum-number-deletions-insertions-transform-one-string-another/
-//  https://www.geeksforgeeks.org/shortest-common-supersequence/
-//  https://www.geeksforgeeks.org/longest-repeating-subsequence/
-//  https://www.geeksforgeeks.org/longest-palindromic-subsequence-dp-12/
-
 public class MaximumSubsequenceSum {
     public static void main(String[] args) {
         int[] arr = {5, 10, 20};
