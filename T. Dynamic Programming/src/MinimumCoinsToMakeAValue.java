@@ -19,4 +19,22 @@ public class MinimumCoinsToMakeAValue {
 
         return res;
     }
+
+    public static int getMin(int[] arr, int n, int value) {
+        int[] sol = new int[n+1];
+        sol[0] = 0;
+
+        for (int i=0; i<=value; i++) {
+            sol[i] = Integer.MAX_VALUE;
+        }
+
+        for (int i=1; i<=value; i++) {
+            int subSol = sol[i-arr[i]];
+            if (subSol!=Integer.MAX_VALUE) {
+                sol[i] = Math.min(sol[i], subSol+1);
+            }
+        }
+
+        return sol[value];
+    }
 }
