@@ -2,6 +2,7 @@ public class MinimumJumps {
     public static void main(String[] args) {
         int[] arr = {3, 4, 2, 1, 2, 1};
         System.out.println(minimumJumps(arr, arr.length));
+        System.out.println(minimumJumpsEff(arr, arr.length));
     }
 
     public static int minimumJumps(int[] arr, int n) {
@@ -18,5 +19,26 @@ public class MinimumJumps {
         }
 
         return res;
+    }
+
+    //  Time Complexity : O(n^2)
+    //  Auxiliary Space : O(n)
+    public static int minimumJumpsEff(int[] arr, int n) {
+        int[] sol = new int[n];
+        sol[0] = 0;
+
+        for (int i=1; i<n; i++) {
+            sol[i] = Integer.MAX_VALUE;
+        }
+
+        for (int i=0; i<n; i++) {
+            for (int j=0; j<i; j++) {
+                if (j+arr[j]>=i) {
+                    sol[i] = Math.min(sol[i], sol[j]+1);
+                }
+            }
+        }
+
+        return sol[n-1];
     }
 }
