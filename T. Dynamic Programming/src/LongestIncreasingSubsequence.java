@@ -1,5 +1,9 @@
 //  You can also use the same strategy to make an unsorted array into the sorted one.
 //  All you have to do is just use the below function and subtract the final result from length of the total array.
+
+//  You can solve longest bitonic subsequence problem using strategy too.
+//  https://www.geeksforgeeks.org/longest-bitonic-subsequence-dp-15/
+
 public class LongestIncreasingSubsequence {
     public static void main(String[] args) {
         int[] arr = {3, 4, 2, 8, 10, 5, 1};
